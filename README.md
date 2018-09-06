@@ -25,8 +25,8 @@
 ## 单元测试的编写
 - 在 `test\unit\specs` 目录下已有 3 个文件， 包含文本内容测试、点击事件测试、异步测试
 - `test\unit\specs` 目录下新建 js 文件，命名规范 `*.spec.js`
-- 在 `coverage` 目录下有生成的单元测试文档.
-![issmage][https://github.com/Slice-dd/vue-karme-test/raw/master/src/assets/coverage.png]
+- 在 `coverage` 目录下有生成的单元测试文档
+![issmage][vue-karme-test/src/assets/coverage.png]
 
 
 

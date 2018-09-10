@@ -1,7 +1,7 @@
 ## vue 单元测试
 
 - 本示例使用的是 **Karma +**  **Mocha**  搭配 `Vue.js` 官方单元测试实用工具库 **vue-test-utils**， [vue-test-utils 入门](https://vue-test-utils.vuejs.org/zh/)
-
+- 如果是自己使用 `vue init` 初始化项目的话，在执行 `Set up unit tests` 命令时选择 **Y** ，然后再选择 **Karma and Mocha**
 
 ## 安装
 #### npm install

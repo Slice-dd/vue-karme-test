@@ -9,10 +9,12 @@ describe('Async.vue', () => {
         
         setTimeout(() => {
             console.log(wraper.vm.value);
-            wraper.vm.$nextTick(() => {
-                expect(wraper.find('div h3').text()).to.equal('get data');
-                done();
-            })
+            expect(wraper.find('div h3').text()).to.equal('get data');
+            done();
+            // wraper.vm.$nextTick(() => {
+            //     // expect(wraper.find('div h3').text()).to.equal('get data');
+            //     // done();
+            // })
         })
     })
 })
